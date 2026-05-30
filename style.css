@@ -4,19 +4,55 @@
     box-sizing: border-box;
 }
 
+
 body {
-    margin: auto 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Sigmar", sans-serif;
+}
+
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.container {
+    height: 100vh;
+    max-width: 512px;
+    min-width: 400px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
 }
 
 h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    font-family: "Playwrite AU VIC Guides", cursive;
     text-align: center;
-    color: blue;
+    color: rgb(109, 76, 7);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
 }
 
-#chilometri {
-    width: 220px;
-}
-
-#anni {
-    width: 120px;
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: "Playwrite AU VIC Guides", cursive;
+    color: rgb(109, 76, 7);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
 }
